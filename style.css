@@ -280,7 +280,7 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	margin-top: 50px;
 }
 #services .service-item {
@@ -563,7 +563,11 @@ p {
 	}
 }
 /* End Keyframes */
-
+@media only screen and (max-width:767px){
+	#services .service-bottom {
+		flex-wrap: wrap;
+	}
+}
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
@@ -585,6 +589,7 @@ p {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
+	
 	/* End Services Section */
 
 	/* Project */
@@ -699,3 +704,4 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
