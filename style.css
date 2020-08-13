@@ -9,7 +9,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-a {
+a{
 	text-decoration: none;
 }
 .container {
@@ -80,6 +80,7 @@ p {
 	width: 100vw;
 	height: auto;
 }
+#header a{text-decoration: none;}
 #header .header {
 	min-height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
@@ -261,7 +262,7 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-
+#hero a{ text-decoration: none;}
 /* End Hero Section */
 
 /* Services Section */
