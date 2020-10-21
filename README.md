@@ -1,4 +1,4 @@
-#2Be Fit
+#2B Fit
 
 front-end website:
                     https://bondokk.herokuapp.com/
